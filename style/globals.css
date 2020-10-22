@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  /* background: url('/img/Jon_suwan/jon\ suwan\ sunrise-12.jpg') no-repeat center/cover; */
+}
+
+ul {
+list-style: none;  
+}
+
+a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+.bg-dark {
+  background: rgb(0, 0, 0);
+  color: #ccc;
+}

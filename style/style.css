@@ -1,0 +1,45 @@
+.wrapper{
+  background: url('/img/Jon_suwan/jon\ suwan\ sunrise-12.jpg') no-repeat center/cover;
+}
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 12.5rem;
+  opacity: 0.9;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  width: 75%;
+  margin: auto;
+}
+
+.navlist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+}
+
+.navlist li {
+  padding:10px 20px;
+  border-bottom: #fff 1px solid;
+  width: 100%
+}
+
+.navlist li:hover{
+  background: #333;
+  cursor: pointer;
+}
+
+.main-content{
+  height: 100vh;
+  width: 100vw;
+  background: url('/img/Jon_suwan/jon\ suwan\ sunrise-12.jpg') no-repeat center/cover;
+}
