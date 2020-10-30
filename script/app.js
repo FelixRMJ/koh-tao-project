@@ -4,9 +4,11 @@ const beaches = document.querySelector('#beaches');
 const diveSites = document.querySelector('#diveSites');
 const links = document.querySelectorAll('.nav-item');
 const navList = document.querySelector('#navList')
+const subList = document.querySelector('.sub-list')
 
 addActive();
-  
+showSubList();
+beaches.addEventListener('click', showSubList)  
 // }
 function addActive(){
   links.forEach(link => {
@@ -16,3 +18,10 @@ function addActive(){
     });
   });
 }
+
+function showSubList(){
+  if(beaches.classList.contains('active')){
+    subList.innerHTML.style = 'display: "flex";';
+  }
+}
+
